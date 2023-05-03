@@ -8,3 +8,5 @@ Lastly,  run "python run.py" to launch the web application.
 To access, navigate to localhost:5000.
 
 See example-setup-output.png for more details.
+
+This project uses Flask, Jquery, and a SQL database as per the final project instructions.
