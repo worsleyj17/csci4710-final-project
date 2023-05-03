@@ -1,7 +1,9 @@
 # csci4710-final-project
 # worsleyj17@students.ecu.edu | Joseph Worsley
 
-To use, program must be set up in a virtual environment using python. 
-Libraries may need to be imported, such as flask and sqlalchemy.
-To run, enter "python run.py" in the virtual environment once everything is set up.
-Navigate to localhost:5000 to access the web application.
+
+To use, open a terminal in the extracted folder and run the following command:  
+"python3 -m venv venv" to access virtual environment.
+Then, run "venv\Scripts\activate.bat" to activate the environment.
+Lastly,  run "python run.py" to launch the web application.
+To access, navigate to localhost:5000.
