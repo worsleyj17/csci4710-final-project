@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+  <article class="media content-section">
+  
+    <div class="media-body">
+      <div class="article-metadata">
+		
+          <div> <!-- Edit Button -->
+            <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{{ url_for('update_post', post_id=post.id) }}">Edit</a>
+          </div>
+      </div>
+      <h2 class="article-title">{{ post.title }}</h2>
+      <p class="article-content">{{ post.content }}</p>
+    </div>
+  </article>
+{% endblock content %}

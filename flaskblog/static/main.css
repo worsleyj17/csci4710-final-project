@@ -1,0 +1,47 @@
+body {
+  background: #E5E4E2 ;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+
+.site-header .navbar-nav .nav-link {
+  color: #C3B4CC;
+}
+
+.site-header .navbar-brand {
+  color: #E5E4E2;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #D6CCDC;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #A509FF;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+
+.bg-steel {
+  background-color: #0A0A0A;
+}
